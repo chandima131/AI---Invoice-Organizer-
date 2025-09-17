@@ -1,0 +1,4 @@
+file_name,invoice_no,invoice_date,company,subtotal,vat_percentage,vat_amount,total_cost
+sample.pdf,DebtRecovery/044102.00017(259),15 May 2023,Birketts LLP,654.0,0.0,,699.0
+test2.pdf,INV-9090,11Apr2023,GSBarberSuppliesLtd(NISHMAN),6500.0,20.0,1300.0,7800.0
+test3.pdf,WM-0000584954,03/05/2023,GS BARBER SUPPLIES LTD T/A NishMan's Barbour Supplies,59.0,20.0,11.8,70.8
