@@ -43,7 +43,7 @@ if USE_GPT:
 
 # ========== UI CONFIG ==========
 st.set_page_config(page_title="Invoice Extractor", layout="wide")
-st.title("📄 Invoice Extractor (PDF → OCR → GPT-5 → CSV)")
+st.title("📄 AI Invoice Extractor (PDF → OCR → GPT-5 → CSV)")
 st.caption(f"Settings — USE_GPT={USE_GPT}, MAX_CHARS_PER_DOC={MAX_CHARS_PER_DOC}, OCR_DPI={OCR_DPI}")
 
 if USE_GPT is False and (st.secrets.get("OPENAI_API_KEY") or  st.secrets.get("TESSERACT_PATH")) is None:
